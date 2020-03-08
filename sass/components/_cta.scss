@@ -1,0 +1,35 @@
+.cta{
+    color: #fff;
+    background-color: rgba(0, 0, 0, .5);
+    
+    margin: 2rem 4rem;
+    border-radius: 5px;
+    overflow: hidden;
+    @media only screen and (max-width : 992px) {
+            margin: 0;
+        }
+    
+    .parallax-container {
+        font-family: 'Playball', cursive;
+        min-height: 35vh;
+        line-height: 0;
+        height: auto;
+        color: rgba(255,255,255,.9);
+      }
+        .parallax-container .section {
+          width: 100%;
+        }
+      
+      @media only screen and (max-width : 992px) {
+        .parallax-container .section {
+          position: absolute;
+          top: 40%;
+        }
+        #index-banner .section {
+          top: 10%;
+        }
+      }
+      a{
+          border-radius: 5px;
+      }
+}

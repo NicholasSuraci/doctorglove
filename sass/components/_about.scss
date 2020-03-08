@@ -1,0 +1,48 @@
+.about{
+    margin: 8rem 10rem;
+    display: flex;
+    justify-content: center;
+   
+    @media screen and (max-width: 1300px) {
+        margin: 0;
+    }
+
+    &__container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #314fe9; ;
+        border-radius: 5px;
+        @media screen and (max-width: 1024px) {
+            color: white;
+             margin-top: 8rem;
+             flex-direction: column;
+         }
+    }
+    &__image{
+        width: 400px;
+        border-radius: 5px 0px 0px 5px;
+        @media screen and (max-width: 1300px) {
+            width: 100%;
+        }
+    }
+    
+    &__text{
+        margin-left: 3rem;
+        color: #fff;
+        padding: 1rem 3rem;
+        @media screen and (max-width: 1300px) {
+            margin-left: 0;
+            margin-top: 3rem;
+        }
+    }
+    
+    &__header{
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    &__lead{
+        margin-top: 3rem;
+    }
+}

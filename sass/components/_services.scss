@@ -1,0 +1,93 @@
+.services{
+
+    margin-top: 5rem;
+    &__container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 1rem;
+
+        @media screen and (max-width: 1024px) {
+           margin: 0;
+            margin-top: 1rem;
+            flex-direction: column;
+        }
+    }
+
+    &__card{
+       
+        &--1{
+            background-color: #314fe9;
+            width: 25%;
+            padding: 2rem 0;
+            border-radius: 5px;
+            color: #fff;
+            margin-right: 5rem;
+
+            @media screen and (max-width: 1024px) {
+                width: 100%;
+                margin-right: 0;
+                margin-top: 5rem;
+                padding: 4rem 6rem;
+            }
+
+        }
+        &--2{
+            background-color: #314fe9;
+            width: 25%;
+            padding: 2rem 0;
+            border-radius: 5px;
+            color: #fff; 
+            @media screen and (max-width: 1024px) {
+                width: 100%;
+                margin-top: 5rem;
+                padding: 3rem 4rem;
+            }
+        }
+        &--3{
+            background-color: #314fe9;
+            width: 25%;
+            padding: 2rem 0;
+            border-radius: 5px;
+            color: #fff;
+            margin-left: 5rem;
+            @media screen and (max-width: 1024px) {
+                width: 100%;
+                margin-left: 0;
+                margin-top: 5rem;
+                padding: 3rem 5rem;
+            }
+        }
+    }
+    &__image{
+        text-align: center;
+        color: #fc5185;
+        overflow: hidden;
+    }
+    &__text{
+       
+        text-align: center;
+    }
+    &__header{
+        color: #fff;
+        text-align: center;
+        font-size: 2.5rem;
+        margin-top: 3rem;
+        font-family: 'Playball', cursive;
+        @media screen and (max-width: 1024px) {
+       
+            padding: 0;
+        }
+    }
+    &__lead{
+        margin-top: .5rem;
+        font-size: 1.5rem;
+    }
+
+    &__list{
+        list-style-type: none;
+    }
+    &__item{
+ 
+    }
+}
