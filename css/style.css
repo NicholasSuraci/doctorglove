@@ -10,10 +10,13 @@ body {
 
 .parallax-container {
   font-family: 'Playball', cursive;
-  min-height: 60vh;
+  min-height: 70vh;
   line-height: 0;
   height: auto;
   color: rgba(255, 255, 255, 0.9); }
+  @media screen and (max-width: 1024px) {
+    .parallax-container {
+      min-height: 100vh; } }
 
 .parallax-container .section {
   width: 100%; }
