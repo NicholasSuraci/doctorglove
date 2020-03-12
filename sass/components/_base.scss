@@ -7,7 +7,7 @@
 }
 
 body{
-  background: #3D5af1; 
+  background: $color-primary; 
 }
 
 .parallax-container {
@@ -35,5 +35,5 @@ body{
   }
 }
 #download-button{
-  background-color: #fc5185 !important;
+  background-color: $color-tertiary !important;
 }
